@@ -1,17 +1,15 @@
 import "./App.css"
-import Hello from "./components/Hello"
-import Maths from "./components/Maths"
+import Maths from "./Maths"
+import Userinfo from "./userinfo.js"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Userinfo />
         <Maths />
-        {/* <Hello name="jan" />
-        <Hello
-          name="torbik"
-          age={20}
-        /> */}
+        <Maths />
+        <Maths />
       </header>
     </div>
   )
